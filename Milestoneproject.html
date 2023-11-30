@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train ticket booking</title>
+</head>
+<body>
+    <h1>Online Train Ticket Booking</h1>
+    <h2>Plan Your Journey Now!</h2>
+    <label for="">
+        Journey From:
+<select name="Places" id="">
+    <option value="Kannur">Kannur</option>
+    <option value="Kochi">Kochi</option>
+    <option value="Pondicherry">Pondicherry</option>
+    <option value="Thalassery">Thalassery</option>
+    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+    </select>
+    </label><br>
+    <label for="">
+        Journey To:
+<select name="Places" id="">
+    <option value="New Delhi">New Delhi</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Bengaluru">Bengaluru</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Pune">Pune</option>
+    </select>
+    </label><br>
+    <label for="">Select Train:
+<select name="Train" id="">
+    <option value="Rajdhani Express">Rajdhani Express</option>
+    <option value="Netravati Express">Netravati Express</option>
+    <option value="Parasuram Express"></option>
+    <option value="Shatabdi">Shatabdi</option>
+    <option value="Vande Bharat Express">Vande Bharat Express</option>
+</select>
+    </label><br>
+    <label for="Date">
+        Select Date:
+        <input type="date">
+    </label><br>
+    <label for="">
+        Select Time:
+        <input type="time">
+    </label><br>
+    <label for="">
+        Number Of Seats
+<input type="number" min="0">
+    </label><br>
+    <label for="">Ticket Class
+        <select name="seat type" id="">
+            <option value="1st Ac">1st AC</option>
+            <option value="2nd AC">2nd AC</option>
+            <option value="First Class">First Class</option>
+            <option value="Second Class">Second Class</option>
+            <option value="Sleeper Class">Sleeper Class</option>
+        </select>
+    </label><br>
+    <label for=""> Your Name:
+<input type="text">
+</label><br>
+<label for="">Your Email:
+    <input type="text">
+</label><br>
+<form action="file">
+<label for="">
+    Upload ID Card:
+    <input type="file">
+</label>
+</form>
+<label for="">
+    Payment Method:
+    <select name="payment method" id="">
+        <option value="Debit Card">Debit Card</option>
+        <option value="UPI/Wallet">UPI/Wallet</option>
+        <option value="Razorpay">Razorpay</option>
+        <option value="Quick Pay">Quick Pay</option>
+    </select>
+</label><br>
+<form action="">
+    <label for="">Additional Comments:
+        <textarea name="Additional Comments" id="" cols="30" rows="5"></textarea>
+    </label>
+</form>
+<form action=""><label for="">
+    Meal  Preference:
+</label>
+<input type="radio" id="vegetarian" name="fav_meal" value="vegetarian">
+  <label for="vegetarian">Vegetarian</label>
+  <input type="radio" id="nonveg" name="fav_meal" value="non-vegetarian">
+  <label for="nonveg">Non-vegetarian</label><br>
+<fieldset style="width: 150px;">
+    <legend>Additional Services</legend>
+    <input type="checkbox">
+    <label for="">Wi-Fi</label><br>
+    <input type="checkbox">
+    <label for="">Newspaper</label>
+</fieldset><br>
+    <button>Book Tickets</button>
+</body>
+</html>
